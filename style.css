@@ -1,0 +1,20 @@
+/* --- Google fonts --- */
+@import url('https://fonts.googleapis.com/css?family=Montserrat|Open+Sans');
+
+/* --- Components design --- */
+@import url(components/banner.css);
+@import url(components/button.css);
+@import url(components/timeline.css);
+@import url(components/about-me.css);
+@import url(components/skills.css);
+
+
+/* --- Fonts --- */
+body {
+    font-family: "Open Sans", "Helvetica", "sans-serif";
+}
+
+h1, h2,h3 {
+    font-family: "Montserrat", "sans-serif"
+}
+

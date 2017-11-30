@@ -2,6 +2,10 @@
 <html ng-app="portfolio" lang="pt-br">
 <head>
 	<title>Marcos Carvalho | TI</title>
+	<!-- Favicon -->
+		<link rel="icon" href="images/coffee.png" type="image/x-icon"/>
+		<link rel="shortcut icon" href="images/coffee.png" type="image/x-icon"/>
+	<!-- End Favicon -->
 	<!-- CSS Libraries -->
 		<!-- Bootstrap -->
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
@@ -164,41 +168,56 @@
         <div class="skills" id="skills">
         	<h1>Minhas habilidades...</h1>
         	<!-- Skills progress bar -->
-        	<span>Suporte para usu&aacute;rios: </span><br>
-        	<div class="progress">
-				<div class="progress-bar progress-bar-striped bg-success" role="progressbar" style="width: 80%" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100">80%</div>
-			</div>
-			<br>
-			<span>Desenvolvimento PHP: </span><br>
-        	<div class="progress">
-				<div class="progress-bar progress-bar-striped" role="progressbar" style="width: 60%" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100">60%</div>
-			</div>
-			<br>
-			<span>Desenvolvimento Java SE: </span><br>
+        	<span>Desenvolvimento Java SE: </span><br>
         	<div class="progress">
 				<div class="progress-bar progress-bar-striped bg-danger" role="progressbar" style="width: 40%" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100">40%</div>
 			</div>
 			<br>
+			<span>Desenvolvimento WEB: </span><br>
+        	<div class="progress">
+				<div class="progress-bar progress-bar-striped bg-info" role="progressbar" style="width: 55%" aria-valuenow="55" aria-valuemin="0" aria-valuemax="100">55%</div>
+			</div>
+			<br>
+			<span>Desenvolvimento PHP: </span><br>
+        	<div class="progress">
+				<div class="progress-bar progress-bar-striped bg-info" role="progressbar" style="width: 60%" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100">60%</div>
+			</div>
+			<br>
 			<span>Firewall pfSense: </span><br>
         	<div class="progress">
-				<div class="progress-bar progress-bar-striped bg-info" role="progressbar" style="width: 75%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">75%</div>
+				<div class="progress-bar progress-bar-striped" role="progressbar" style="width: 75%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">75%</div>
 			</div>
 			<br>
 			<span>Bases de dados SQL Server e MySQL: </span><br>
         	<div class="progress">
-				<div class="progress-bar progress-bar-striped bg-info" role="progressbar" style="width: 75%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">75%</div>
+				<div class="progress-bar progress-bar-striped" role="progressbar" style="width: 75%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">75%</div>
 			</div>
 			<br>
-			<span>Desenvolvimento WEB: </span><br>
+			<span>Suporte para usu&aacute;rios: </span><br>
         	<div class="progress">
-				<div class="progress-bar progress-bar-striped" role="progressbar" style="width: 55%" aria-valuenow="55" aria-valuemin="0" aria-valuemax="100">55%</div>
+				<div class="progress-bar progress-bar-striped bg-success" role="progressbar" style="width: 80%" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100">80%</div>
 			</div>
         	<!-- End Skills progress bar -->
         </div>
+        <!-- Contact -->
+    	<div class="contact" id="contact">
+    		<h1>Entre em contato...</h1>
+    		<p>
+    			Ol&aacute;, me conte um pouco sobre voc&ecirc; e o que precisa. Depois podemos marcar um caf&eacute;zinho para fazermos acontecer.
+    		</p>
+    		<form method="post" action="">
+    			<input type="text" name="client_name" placeholder="Qual seu nome?" size="100"><br><br>
+    			<input type="text" name="client_email" placeholder="Qual seu e-mail?" size="100"><br><br>
+    			<input type="text" name="client_subject" placeholder="Sobre qual assunto deseja falar?" size="100"><br><br>
+    			<textarea name="client_message" rows="10" cols="100" placeholder="Digite sua mensagem aqui!"></textarea><br><br>
+    			<input type="submit" value="Submit" class="submit">
+    		</form>
+    	</div>
+    	<!-- End contact -->
 	</div>
 	<!-- End website body -->
 	<!--Footer-->
-	<footer class="fixed-bottom">
+	<footer class="footer">
 	</footer>
 	<!-- End Footer-->
 	<!-- JS Scripts -->

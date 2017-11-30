@@ -1,0 +1,13 @@
+.contact {
+	position: relative;
+	border-left: ridge 10px lightgrey;
+	border-bottom: ridge 10px lightgrey;  
+	padding: 1.2em;
+	top: 4em;
+	background: url(../images/coffee.png) no-repeat;
+	background-position: right bottom;
+}
+
+.contact .submit {
+	width: 51.5em;
+}

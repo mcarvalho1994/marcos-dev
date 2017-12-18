@@ -49,7 +49,7 @@
             <div class="banner-content">
                 <h1>Marcos Carvalho - Consultor de TI</h1>
                 <p>Empresa nenhuma é pequena demais, ao ponto de não precisar de controle.</p>
-                <a href="#" class="btn-twitter">Conheça meus serviços</a>
+                <a href="#services" class="btn-twitter">Conheça meus serviços</a>
             </div>
         </div>
         <div class="about-me" id="about-me">
@@ -199,6 +199,22 @@
 			</div>
         	<!-- End Skills progress bar -->
         </div>
+        <!-- Services -->
+       	<div class="services" id="services">
+       		<h1>Meus servi&ccedil;os...</h1>
+       		<br>
+       		<table>
+       			<tr ng-repeat="sItem in sItens">
+       				<td>
+       					<i class="{{sItem.icon}}" aria-hidden="true"></i>
+       				</td>
+       				<td>
+       					<b>{{sItem.desc}}</b>
+       				</td>
+       			</tr>
+       		</table>
+       	</div>
+        <!-- End services -->
         <!-- Contact -->
     	<div class="contact" id="contact">
     		<h1>Entre em contato...</h1>

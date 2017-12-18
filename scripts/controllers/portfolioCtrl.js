@@ -18,5 +18,6 @@ angular.module("portfolio").controller("portfolioCtrl", function($scope, $http) 
 		{icon: "fa fa-shield fa-2x", desc: "Instalação de configuração do firewall pfSense."},
 		{icon: "fa fa-ticket fa-2x", desc: "Instalação de configuração do sistema de chamados GLPI."},
 		{icon: "fa fa-globe fa-2x", desc: "Desenvolvimento web."},
+		{icon: "fa fa-laptop fa-2x", desc: "Desenvolvimento de sistemas."},
 	];	
 });

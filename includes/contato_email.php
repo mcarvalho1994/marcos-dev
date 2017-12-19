@@ -22,7 +22,7 @@ $mailer->Port = 587; //Indica a porta de conexão para a saída de e-mails
 $mailer->Host = 'smtp.live.com';//Endereço do Host do SMTP outlook
 $mailer->SMTPAuth = true; //define se haverá ou não autenticação no SMTP
 $mailer->Username = 'marcos.vini.carvalho@hotmail.com'; //Login de autenticação do SMTP
-$mailer->Password = 'm@rcos01'; //Senha de autenticação do SMTP
+$mailer->Password = 'SuaSenhaAqui'; //Senha de autenticação do SMTP
 $mailer->FromName = 'Contato - Site'; //Nome que será exibido para o destinatário
 $mailer->From = 'marcos.vini.carvalho@hotmail.com'; //Obrigatório ser a mesma caixa postal configurada no remetente do SMTP
 $mailer->AddAddress('marcos.vini.carvalho@hotmail.com','Marcos Carvalho');//Destinatários

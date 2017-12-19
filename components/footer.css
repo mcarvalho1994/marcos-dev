@@ -4,12 +4,9 @@ footer {
 	background: #363636;
 	color: white;
 	height: 5.5em;
-	display: -webkit-flex; /* Safari */
-    -webkit-align-items: center; /* Safari 7.0+ */
-    display: flex;
+	justify-content: center;
     align-items: center;
-    width: 100%;
-    align-content: center;
+    text-align: center;
 }
 
 footer a {

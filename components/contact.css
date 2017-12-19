@@ -16,5 +16,12 @@
 {
 	.contact .submit, .contact-form{
 	width: 13.5em;
+	}
 }
+
+@media (max-width: 900px) and (min-width: 601px)
+{
+	.contact .submit, .contact-form{
+	width: 23.5em;
+	}
 }

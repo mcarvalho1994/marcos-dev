@@ -28,7 +28,7 @@ $mailer->From = 'marcos.vini.carvalho@hotmail.com'; //Obrigatório ser a mesma c
 $mailer->AddAddress('marcos.vini.carvalho@hotmail.com','Marcos Carvalho');//Destinatários
 $mailer->Subject = 'Contato - Site';//titulo
 $mailer->Body = 'Nome:  '.$nome_cliente.'.'.PHP_EOL;//texto
-$mailer->Body = 'Telefone:  '.$tel_cliente.'.'.PHP_EOL;//texto
+$mailer->Body.= 'Telefone:  '.$tel_cliente.'.'.PHP_EOL;//texto
 $mailer->Body.= 'E-mail de contato: '.$email_cliente.PHP_EOL;//texto
 $mailer->Body.= 'Assunto: '.$assunto_cliente.PHP_EOL;//texto
 $mailer->Body.= 'Mensagem: '.$mensagem.PHP_EOL;//texto

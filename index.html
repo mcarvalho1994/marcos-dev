@@ -225,10 +225,10 @@
     		Ou atrav&eacute;s do formul&aacute;rio abaixo
     		<br><br>
     		<form method="post" action="includes/contato_email.php">
-    			<input type="text" name="client_name" placeholder="Qual seu nome?" class="contact-form"><br><br>
-    			<input type="text" name="client_phone" placeholder="Telefone com DDD" class="contact-form"><br><br>
-    			<input type="text" name="client_email" placeholder="Qual seu e-mail?" class="contact-form"><br><br>
-    			<input type="text" name="client_subject" placeholder="Assunto desejado" class="contact-form"><br><br>
+    			<input type="text" name="client_name" placeholder="Qual seu nome?" class="contact-form" maxlength="100" required><br><br>
+    			<input type="tel" name="client_phone" placeholder="Telefone com DDD" class="contact-form" maxlength="15"><br><br>
+    			<input type="email" name="client_email" placeholder="Qual seu e-mail?" class="contact-form" maxlength="100" required><br><br>
+    			<input type="text" name="client_subject" placeholder="Assunto desejado" class="contact-form" maxlength="50" required><br><br>
     			<textarea name="client_message" placeholder="Digite sua mensagem aqui!" class="contact-form"></textarea><br><br>
     			<input type="submit" value="Submit" class="submit">
     		</form>

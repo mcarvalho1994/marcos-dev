@@ -21,3 +21,7 @@ h1, h2,h3 {
     font-family: "Montserrat", "sans-serif"
 }
 
+.container-fluid {
+	padding-right : 0px !important;
+	padding-left : 0px !important;
+}

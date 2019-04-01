@@ -13,6 +13,8 @@
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
 		<!-- Font-awesome CSS -->
     	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    	<!-- DEV Icon -->
+    	<link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
 	<!-- End CSS Libraries -->
 	<!-- Required meta tags -->
 	    <meta charset="utf-8">
@@ -40,7 +42,7 @@
 			<div class="collapse navbar-collapse" id="navbarSupportedContent">
 			    <ul class="navbar-nav mr-auto">
 			      <li class="nav-item" ng-repeat="menu in menus">
-			        <a class="nav-link" href="{{menu.url}}">{{menu.item}}</a>
+			        <a class="nav-link softScroll" href="{{menu.url}}">{{menu.item}}</a>
 			      </li>
 			    </ul>
 			</div>
@@ -174,52 +176,44 @@
         </div>
         <div class="skills" id="skills">
         	<h1>Minhas habilidades...</h1>
-        	<!-- Skills progress bar -->
-        	<span>Desenvolvimento Java SE: </span><br>
-        	<div class="progress">
-				<div class="progress-bar progress-bar-striped bg-danger" role="progressbar" style="width: 40%" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100">40%</div>
-			</div>
-			<br>
-			<span>Desenvolvimento WEB: </span><br>
-        	<div class="progress">
-				<div class="progress-bar progress-bar-striped bg-info" role="progressbar" style="width: 55%" aria-valuenow="55" aria-valuemin="0" aria-valuemax="100">55%</div>
-			</div>
-			<br>
-			<span>Desenvolvimento PHP: </span><br>
-        	<div class="progress">
-				<div class="progress-bar progress-bar-striped bg-info" role="progressbar" style="width: 60%" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100">60%</div>
-			</div>
-			<br>
-			<span>Firewall pfSense: </span><br>
-        	<div class="progress">
-				<div class="progress-bar progress-bar-striped" role="progressbar" style="width: 75%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">75%</div>
-			</div>
-			<br>
-			<span>Bases de dados SQL Server e MySQL: </span><br>
-        	<div class="progress">
-				<div class="progress-bar progress-bar-striped" role="progressbar" style="width: 75%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">75%</div>
-			</div>
-			<br>
-			<span>Suporte para usu&aacute;rios: </span><br>
-        	<div class="progress">
-				<div class="progress-bar progress-bar-striped bg-success" role="progressbar" style="width: 80%" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100">80%</div>
-			</div>
-        	<!-- End Skills progress bar -->
+        	<div class="container-fluid">
+        		<div class="row">
+        			<div class="col">
+        				<img src="images/html-5.png">
+        			</div>	
+        			<div class="col">
+        				<img src="images/css-logo.png">
+        			</div>
+        			<div class="col">
+        				<img src="images/php.png">
+        			</div>	
+        			<div class="col">
+        				<img src="images/java.png">
+        			</div>
+        			<div class="col">
+        				<img src="images/mysql.png">
+        			</div>	
+        			<div class="col">
+        				<img src="images/git.png">
+        			</div>
+        			<div class="col">
+        				<img src="images/github.png">
+        			</div>				
+        		</div>
+        	</div>
         </div>
         <!-- Services -->
        	<div class="services" id="services">
        		<h1>Meus servi&ccedil;os...</h1>
        		<br>
-       		<table>
-       			<tr ng-repeat="sItem in sItens">
-       				<td>
+       		<div class="container-fluid">
+       			<div ng-repeat="sItem in sItens" class="row">
+       				<div class="col">
        					<i class="{{sItem.icon}}" aria-hidden="true"></i>
-       				</td>
-       				<td>
        					<b>{{sItem.desc}}</b>
-       				</td>
-       			</tr>
-       		</table>
+       				</div>
+       			</div>
+       		</div>
        	</div>
         <!-- End services -->
         <!-- Contact -->
